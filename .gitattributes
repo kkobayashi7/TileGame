@@ -1,3 +1,5 @@
+Assets/Fonts/NotoSansJP-LightSDF.asset filter=lfs diff=lfs merge=lfs -text
+NotoSansJP-LightSDF.asset filter=lfs diff=lfs merge=lfs -text
 *.DS_Store filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
 *.cs filter=lfs diff=lfs merge=lfs -text
