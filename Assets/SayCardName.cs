@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:23e135ae66a4c112c918b70509f8718e97f34afe264ef6d13d7b5921f9043bb8
-size 455
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SayCardName : MonoBehaviour {
+
+	public CardData cardData;
+
+    void ShowScriptableObjectData(){
+		// 参照しているCardDataの中身をコンソールに表示する
+		Debug.Log("カード名は" + cardData.CardName + "です。"+ "私の体力は" + PlayerStatus.HP + "です。");
+	}
+
+	void Start(){
+		ShowScriptableObjectData();
+	}
+	
+	void Update(){
+	}
+}

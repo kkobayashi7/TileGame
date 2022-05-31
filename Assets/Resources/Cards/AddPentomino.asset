@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b2a26e2fd1b971ce0c59f1b11110a92392f834c3ef68b7600f12afdb48a62347
-size 699
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd088719c312240ce89ff347acde2bbd, type: 3}
+  m_Name: AddPentomino
+  m_EditorClassIdentifier: 
+  CardName: AddPentomino
+  Text: "\u30E9\u30F3\u30C0\u30E0\u306A\u30DA\u30F3\u30C8\u30DF\u30CE\u30AB\u30FC\u30C92\u679A\u3092\u6368\u3066\u672D\u306B\u52A0\u3048\u308B.
+    \u305D\u308C\u3089\u306E\u30B3\u30B9\u30C8\u306F1."
+  cost: 1
+  isTile: 0
+  isExile: 0
+  TileData:
+  - row: 0000000000000000

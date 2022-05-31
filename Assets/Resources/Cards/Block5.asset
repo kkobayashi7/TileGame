@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:69340d439bb92bc0b4b24b4671c8c71d5c7c5324f5d37b2b6904b261c5fba5de
-size 536
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd088719c312240ce89ff347acde2bbd, type: 3}
+  m_Name: Block5
+  m_EditorClassIdentifier: 
+  CardName: Block5
+  Text: "\u9632\u5FA1\u50245\u3092\u5F97\u308B."
+  cost: 1
+  isTile: 0
+  isExile: 0
+  TileData:
+  - row: 0000000000000000

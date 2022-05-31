@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:369c9d55cd4c6d33d018acbdce16c4fa842274f17c4547a14288cfa424d7dbcf
-size 310
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public static class PlayerStatus
+{
+    public static int HP = 40;
+    public static int Max_HP = 40;
+    public static int money = 0; 
+    public static int Max_Energy = 3;
+    public static List<Card> Deck = new List<Card>(); 
+}

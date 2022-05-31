@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ee94af8019821487d35214add45a11dd957215642532337b55a3b1046f1a46bf
-size 626
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd088719c312240ce89ff347acde2bbd, type: 3}
+  m_Name: TPentomino
+  m_EditorClassIdentifier: 
+  CardName: TPentomino
+  Text: "\u30B3\u30B9\u30C82\u30A8\u30CA\u30B8\u30FC."
+  cost: 2
+  isTile: 1
+  isExile: 0
+  TileData:
+  - row: 010000000100000001000000
+  - row: 000000000100000000000000
+  - row: 000000000100000000000000

@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:efd1ee293bc01c6cf840c99606a6525a67c27b4cfd25c1325dc72eb9dcbe10c4
-size 904
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd088719c312240ce89ff347acde2bbd, type: 3}
+  m_Name: DrawAttack
+  m_EditorClassIdentifier: 
+  CardName: DrawAttack
+  Text: "\u3053\u306E\u30BF\u30A4\u30EB\u306E\u5468\u56F28\u30DE\u30B9\u3092\u4ED6\u306E\u30BF\u30A4\u30EB\u3067\u56F2\u3093\u3060\u3068\u304D,
+    \u305F\u3060\u3061\u306B1\u679A\u30AB\u30FC\u30C9\u3092\u5F15\u304F.  \u3055\u3089\u306B,
+    \u4ECA\u5F8C\u3042\u306A\u305F\u306E\u30BF\u30FC\u30F3\u306E\u958B\u59CB\u6642\u306B1\u679A\u30AB\u30FC\u30C9\u3092\u5F15\u304F.
+    \u5EC3\u68C4."
+  cost: 1
+  isTile: 1
+  isExile: 1
+  TileData:
+  - row: 03000000

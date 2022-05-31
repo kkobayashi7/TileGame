@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bbccc2c473d95a5bfeddc4848ba21feb5d5d2cf6703df1f13f2610ced3d36022
-size 275
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class SceneController : MonoBehaviour
+{
+    public void SwitchScene()
+    {
+        SceneManager.LoadScene("BattleScene", LoadSceneMode.Single);
+    }
+}

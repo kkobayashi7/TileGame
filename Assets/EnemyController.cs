@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:81012301d6d078805f8b8bfe75e2757bbe215f1f6bf3dfdfa9431725e47fe3af
-size 332
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class EnemyController : MonoBehaviour
+{
+    public EnemyData enemyData;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}

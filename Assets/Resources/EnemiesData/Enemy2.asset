@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:43c119f0d7fe301c80707390c8d642f7492a39ebd72603d7f2a6daa9b317e228
-size 714
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c82068fbd5e464cc3aac7de6d49b2f8a, type: 3}
+  m_Name: Enemy2
+  m_EditorClassIdentifier: 
+  EnemyName: Enemy2
+  EnemyAction: 0200000002000000
+  EnemyTileData:
+  - row: 0000000000000000000000000000000000000000
+  - row: 0000000001000000010000000100000000000000
+  - row: 0000000001000000090000000100000000000000
+  - row: 0000000001000000010000000100000000000000
+  - row: 0000000000000000000000000000000000000000

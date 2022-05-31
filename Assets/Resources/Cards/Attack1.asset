@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4e57c1a048bf6e4674facc3e702c9e3462cd50d4cc056c0ccaddc2e5f69d8d42
-size 535
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd088719c312240ce89ff347acde2bbd, type: 3}
+  m_Name: Attack1
+  m_EditorClassIdentifier: 
+  CardName: Attack1
+  Text: "\u30B3\u30B9\u30C80\u30A8\u30CA\u30B8\u30FC"
+  cost: 0
+  isTile: 1
+  isExile: 0
+  TileData:
+  - row: 01000000
